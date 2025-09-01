@@ -1,7 +1,7 @@
 # Half Adder – EDA Playground
 
 ## 📘 Project Overview
-This project demonstrates a **Half Adder** implemented and simulated on [EDA Playground]([https://www.edaplayground.com/x/GjSV]).  
+This project demonstrates a **Half Adder** implemented and simulated on [EDA Playground](https://www.edaplayground.com/x/GjSV).  
 A Half Adder is a combinational logic circuit that performs addition of two single-bit binary numbers. It produces two outputs:
 - **Sum (S)**
 - **Carry (C)**
