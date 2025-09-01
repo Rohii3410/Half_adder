@@ -20,23 +20,21 @@ A Half Adder is a combinational logic circuit that performs addition of two sing
 ---
 
 ## 🖥️ Design Code (Verilog)
-
-
-verilog
-module half_adder(
-    input A, B,
-    output Sum, Carry
-);
+    verilog
+    module half_adder(
+       input A, B,
+       output Sum, Carry
+    );
     assign Sum = A ^ B;     // XOR for Sum
     assign Carry = A & B;   // AND for Carry
-endmodule
+    endmodule
 
 ## 🧪 Verilog Testbench
-module tb_half_adder;
-    reg A, B;
-    wire Sum, Carry;
+    module tb_half_adder;
+      reg A, B;
+      wire Sum, Carry;
 
-   // Instantiate Half Adder
+    // Instantiate Half Adder
     half_adder uut (
         .A(A), 
         .B(B), 
@@ -56,4 +54,4 @@ module tb_half_adder;
 
         $finish;
     end
-endmodule
+    endmodule
